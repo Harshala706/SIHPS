@@ -1,83 +1,68 @@
 # Smart India Hackathon Workshop
-# Date:27-11-2024
-## Register Number:24002063
-## Name:S.HARIKA
-## Problem Title
-Implementation of the Alumni Association platform for the University/Institute.
-## Problem Description
-Background: Alumni associations play a pivotal role in fostering lifelong connections between graduates and their alma mater, facilitating networking, mentorship, and philanthropic support. However, many alumni associations face challenges in maintaining engagement, facilitating donations, and providing valuable services such as job networking and tracking alumni success stories. A comprehensive Alumni Association platform for a University/Institute, encompassing both web and mobile applications, aims to address these challenges effectively. Detailed Description: The proposed Alumni Association platform for the Government Engineering College will feature robust functionalities accessible through both web and mobile applications: Alumni Registration: User-friendly registration processes on both web and mobile platforms, allowing alumni to join the association, update their profiles, and stay connected with peers and the institution. Donation Portal: Secure mechanisms on both platforms for alumni to contribute donations easily and support various initiatives and projects undertaken by the college, fostering a culture of philanthropy. Networking Hub: Dedicated sections on both platforms to connect alumni based on shared interests, professions, and geographic locations, facilitating professional networking, mentorship, and collaboration opportunities. Job Portal: Integrated job search and posting features accessible via web and mobile apps, enabling alumni to explore career opportunities, post job openings, and connect with potential employers within the alumni network. Alumni Directory: Search functionalities available on both platforms to find alumni based on different criteria such as graduation year, field of study, industry, location, etc., promoting networking and community building. Success Story Tracking: Features on both web and mobile apps to showcase and track alumni achievements, success stories, and notable contributions to society, inspiring current students and fostering pride among alumni. Events and Reunions: Announcements, registrations, and management tools available on both platforms for organizing alumni events, reunions, workshops, and professional development sessions to maintain engagement and connection. Feedback and Surveys: Channels on both web and mobile apps for alumni to provide feedback on their experiences, suggest improvements, and participate in surveys to help shape future initiatives of the association. The platform will prioritize user experience, security, and scalability across both web and mobile applications to cater to the diverse needs of the Government Engineering College's alumni community. Expected Solution: Implementation of the Alumni Association platform for the Government Engineering College, comprising both web and mobile applications, is expected to achieve several positive outcomes: Enhanced Alumni Engagement: Seamless access to networking, career opportunities, and alumni events through web and mobile apps will strengthen connections among alumni, fostering a vibrant and active community. Increased Philanthropic Support: Convenient donation processes accessible via both platforms will encourage alumni to contribute towards the college's growth and development initiatives. Career Advancement: Access to job postings, mentorship opportunities, and professional networking on mobile devices will support alumni in their career growth and advancement. Knowledge Sharing: Exchange of knowledge, experiences, and best practices facilitated through both web and mobile apps will enrich professional development and lifelong learning initiatives. Pride and Recognition: Highlighting alumni achievements and success stories on both platforms will instill pride in the alma mater and inspire current students to excel in their academic and professional pursuits. Community Building: Interactive features available on both web and mobile apps will nurture a sense of belonging and camaraderie among alumni, strengthening their bond with the institution. In summary, the Alumni Association platform for the University/Institute, integrated with both web and mobile applications, aims to create a dynamic and supportive ecosystem where alumni can connect, contribute, and thrive, thereby enriching the overall educational experience and legacy of the institution.
-## Problem Creater's Organization
-Government of Gujarat
+# Date : 23/11/25
+## Register Number : 212224040050
+## Name : B Harshala Reddy
+## Problem Title:
+E-Waste Facility Locator
+## Problem Description:
+Website that tells you the location of the nearest e-waste collection and recycling facility. Offers educational pop-ups on the harmful components of your e-waste and their effects on the environment and human health if not disposed correctly. There could be an option to input the model of your old device and earn credit points relative to the amount of precious metals recovered from the device if disposed correctly.
+## Problem Creater's Organization:
+Ministry of Environment
 
-## Idea
-1. Mentorship Portal:Implementation: Use a booking system API (like Calendly) for scheduling, paired with a chat feature powered by Firebase.
-2. Interactive Forums:Implementation: Use a forum-building tool like Discourse or integrate a plugin such as bbPress into WordPress.
-3. Achievements Leaderboard:Implementation: Use SQL to calculate and display top contributors, achievements, or donations on a leaderboard with dynamic updates.
-4. Photo and Media Gallery:Implementation: Set up a gallery plugin (e.g., Lightbox) to allow alumni to browse event pictures and videos with categories and filters.
-5. Feedback System:Implementation: Add a form with Google Forms or a custom-built feedback system storing entries in a backend database.
+## Idea:
+An E-waste Facility Locator tackles the challenge of responsible e-waste disposal by connecting users with nearby drop-off locations. This user-friendly platform allows people to search for facilities based on their location and provides details like accepted items, hours of operation, and any associated fees. It also educates users on what constitutes e-waste and the importance of proper recycling. 
 
+![Types-of-E-Waste](https://github.com/ramya23000505/SIHPS/assets/149370791/fccadf20-163f-4a6e-b35c-3ac14c1ad3ae)
 
-## Proposed Solution / Architecture Diagram
-![Alumni chart](https://github.com/user-attachments/assets/0d9345b4-3402-44e5-9ec4-6abfecc84fa6)
+## Proposed Solution / Architecture Diagram:
+Designing an E-Waste Facility Locator would involve creating a system that allows users to input their location and then provides them with the nearest E-Waste recycling facilities. The proposed solution would involve the following components:
 
-"Alumni Association Platform"
+User Interface (UI): A simple interface for users to input their location, either through manual entry or automatic geolocation.
 
-For Alumni:
- * Networking: Connect with fellow alumni, find mentors, and build professional relationships.
- * Job Portal: Access job listings and career opportunities shared by alumni and partner organizations.
- * Mentorship Programs: Receive guidance and support from experienced alumni.
- * Success Story Tracking: Learn about the accomplishments and journeys of successful alumni.
- * Donation Portal: Contribute to the association and support its initiatives.
+Location Services: The system would use location services to determine the user's current location.
 
-For the Alumni Association:
- * Alumni Registration: Track and manage alumni information for better communication and engagement.
- * Database Integration: Integrate with other systems (e.g., CRM, ERP) to streamline data management.
- * Networking Hub: Facilitate connections and collaborations among alumni.
- * Mentorship Program Management: Organize and oversee mentorship programs.
- * Success Story Promotion: Showcase the achievements of alumni to inspire current students and potential donors.
+Database of E-Waste Facilities: A comprehensive and up-to-date database of E-Waste recycling facilities, including their location, contact information, and hours of operation.
 
+Algorithm for Determining Nearest Facilities: An algorithm that uses the user's location and the database of facilities to determine the nearest E-Waste recycling centers.
 
-## Use Cases
-1.Stay Connected with the College
+Routing Services: Integration with mapping and routing services to provide users with directions to the nearest facilities.
 
-2.Networking Opportunities 
+User Experience (UX): A focus on creating a seamless and user-friendly experience, making it easy for users to find and recycle their E-Waste.
+The architecture diagram for such a system could look like this:
 
-3.Career Advancement and Job Opportunities 
+![image](https://github.com/AnnaLahari/SIHPS/assets/149365425/bddc6bfc-6720-4c6b-a9ed-3a2ebfea85dc)
 
-4.Donations and Philanthropy 
+## Use Cases:
 
-5.Showcase Achievements and Success Stories 
+Locating Nearby Facilities: Users can find the nearest e-waste recycling centers or drop-off points, making it convenient for them to responsibly dispose of their electronic waste. This helps in preventing e-waste from being improperly disposed of in landfills,which can harm the environment.
 
-6.Engage with Current Students 
+Awareness and Education: The locator can also serve as an educational tool, providing information about the importance of e-waste recycling and the potential environmental hazards associated with improper disposal. 
 
-7.Alumni Directory and Search Functionality
+Regulatory Compliance: Businesses and organizations can use the locator to ensure compliance with e-waste regulations. 
 
-8.Attend Events and Reunions 
+Promoting Sustainable Practices: By encouraging individuals and businesses to recycle their electronic waste, the locator promotes sustainable practices and contributes to the conservation of natural resources. 
 
-9.Provide Feedback and Shape the Future 
+Data Collection and Analysis: The use of a locator can also help in gathering data on e-waste disposal patterns, such as the types and quantities of electronic devices being recycled and the geographic distribution of recycling activities.
 
-10.Continuing Education and Lifelong Learning 
+![image](https://github.com/AnnaLahari/SIHPS/assets/149365425/a43cfc0a-279b-45a8-b809-1513bc055cfa)
 
-11.Build a Stronger Alumni Community 
+## Technology Stack:
+Front-end Development:
 
-12.Monitor and Track College Impack
+HTML/CSS/JavaScript: For building the user interface and handling interactive elements on the website or application.
 
-## Technology Stack
-1.Frontend: React.js,Redux,Bootstrap 
+Back-end Development:
+Node.js, Python, or Java 
 
-2.Backend: Node.js,Express.js,GraphQL
+A database system (such as MySQL, PostgreSQL, or MongoDB)
 
-3.Database: MongoDB(NoSQL),PostgreSQL(SQL)
+Authentication: Implementing user authentication mechanisms (e.g., OAuth, JWT) to secure user accounts and access to certain features.
 
-4.Authentication: JWT,OAuth2, Passport.js
+Authorization: Setting up authorization rules to control access to administrative features or sensitive data within the application.
 
-5.Payment Gateway: Stripe, PayPal
+## Dependencies:
+Mapping API: Dependency on Google Maps API for location services and displaying e-waste facility locations.
 
-6.Analytics: Google Analytics,Mixpanel,Segment
+Third-Party APIs: Integration with APIs for credit points calculation and possibly for accessing e-waste facility data.
 
-## Dependencies
-Time Line: 20 days 
-
-Data Collection: 20 days 
-
-Budget: Rs.50,000 
+Educational Content: Dependence on reliable sources for educational content on e-waste and environmental impact. By implementing this solution, EcoRecycle can provide a user-friendly platform for responsible e-waste disposal, educate users on environmental issues, and incentivize sustainable behavior.
